@@ -34,7 +34,6 @@ docker pull timofeevartem/python_lab8:latest
 docker pull timofeevartem/python_lab8:test
 
 ### Основные команды
-
 Запуск приложения в интерактивном режиме:
 ```bash
 docker run -it --rm timofeevartem/python_lab8:latest interactive
