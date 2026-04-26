@@ -1,0 +1,20 @@
+[project]
+name = "inbox"
+version = "0.1.0"
+description = "Task inbox system with pluggable sources"
+requires-python = ">=3.13"
+dependencies = [
+    "typer>=0.24.1",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+inbox = "cli:cli"
