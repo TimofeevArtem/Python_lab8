@@ -39,7 +39,7 @@ docker pull timofeevartem/python_lab8:test
 docker run -it --rm timofeevartem/python_lab8:latest interactive
 ```
 
-Все основные команды из ЛР2 работают
+Все основные команды из ЛР2 работают(нужно только заменить lab7 на lab8)
 ссылка на ЛР2: https://github.com/TimofeevArtem/Python_lab7
 +
 ```bash
